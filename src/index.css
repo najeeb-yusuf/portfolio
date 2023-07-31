@@ -21,3 +21,41 @@ body{
     color: rgb(234 179 8 / 1);
 }
 
+
+.card:hover .title::after,
+.card:focus-within .title::after{
+    transform: scaleX(1);
+}
+
+.title::after{
+    width: calc(100% + 1rem);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
+
+}
+
+.content{
+    transform: translateY(59%);
+    transition: transform 500ms ease;
+}
+
+.card:hover .content,
+.card:focus-within .content{
+    transform: translateY(0);
+    transition-delay: 500ms;
+}
+
+.card:focus-within .content{
+    transition-duration:0ms
+}
+.text{
+    opacity: 0;
+    transition: opacity 500ms linear;
+}
+
+.card:hover .text,
+.card:focus-within .text{
+    opacity: 1;
+}
+

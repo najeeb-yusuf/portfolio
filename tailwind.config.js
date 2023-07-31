@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'qr-attendance': "url('./assets/stock/qr-code.jpg')", 
+        'blog': "url('./assets/stock/blog.jpg')", 
+        'dima': "url('./assets/stock/quiz.jpg')", 
+        'api': "url('./assets/stock/api.jpg')", 
+        'minesweeper': "url('./assets/stock/minesweeper.png')", 
+      },
       keyframes:{
         typing: {
           '100%': {left: '90%', margin:'0 -35px 0 35px'}

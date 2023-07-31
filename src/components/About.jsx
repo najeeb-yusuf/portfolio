@@ -22,7 +22,7 @@ const About = () => {
                         </section>
                         <section className='text-white flex flex-col gap-2 w-full px-4'>
                             <h3 className='text-2xl'> Skills</h3>
-                            <ul className='decorated | grid  sm:grid-cols-3 grid-cols-2 gap-2 ml-1 list-disc'>
+                            <ul className='decorated | grid  grid-cols-2 md:grid-cols-3 gap-2 ml-1 list-disc'>
                                 <li className="">HTML</li>
                                 <li className="">CSS</li>
                                 <li className="">Tailwind</li>
