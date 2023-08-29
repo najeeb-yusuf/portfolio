@@ -14,8 +14,8 @@ const About = () => {
                     <div className='flex flex-col items-center justify-center gap-10 p-4'>
                         <section className='text-white flex flex-col max-w-2xl gap-2 px-4'>
                             <h3 className='text-2xl'>About</h3>
-                            <h2 className='text-yellow-500 font-secondary text-4xl '>Najeeb Yusuf </h2>
-                            <p className=''>I am a full stack<span className="text-yellow-500 relative cursor-pointer" >* 
+                            <h2 className='text-yellow-400 font-secondary text-4xl '>Najeeb Yusuf </h2>
+                            <p className=''>I am a full stack<span className="text-yellow-400 relative cursor-pointer" >* 
                                 </span> web developer with a passion for building websites and applications. 
                                 I love learning new technologies and creating innovative solutions. 
                                 </p>
