@@ -2,12 +2,12 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className='sm:fixed sticky top-0 right-0 w-full'>
+        <nav className='fixed top-0 right-0 w-full'>
 
             <div className="flex justify-between font-main">
                 <div className='pl-5 text-3xl pt-4'>
                     <span className='text-yellow-400'>&#60;</span>
-                    <span className=' text-white'> NAJEEB </span>
+                    <span className='text-white'> NAJEEB </span>
                     <span className='text-yellow-400'>/</span>
                     <span className='text-yellow-400'>&#62;</span>
                 </div>

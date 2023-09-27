@@ -1,24 +1,18 @@
 import React from 'react';
 import { MotionWrap } from './wrapper';
 
-import {Plus} from 'react-feather';
 
 const Work = () => {
-    const qrattendance = require('../assets/projects/qrattendance.jpg')
-    const blog = require('../assets/projects/blog.jpg')
-    const dima = require('../assets/projects/dima.jpg')
-    const erpapi = require('../assets/projects/erpapi.jpg')
-    const minesweeper = require('../assets/projects/minesweeper.jpg')
   return (
     <div className='h-screen w-screen bg-slate-900 flex flex-col justify-center place-items-center gap-4 pl-10 pt-16 pb-2  font-main'>
       <div className='relative  w-48'>
           <h3 className='text-white text-2xl uppercase after:block after:absolute after:w-20 after:h-4 after:border-t-2 after:border-white after:right-0 after:top-1/2'>Work </h3>
       </div>
       <ul className='text-white hidden md:flex list-none uppercase gap-4 sm:gap-10 no-underline pl-6 mb-8'>
-        <li className=''><a href="temp" className='hover:text-yellow-400 text-yellow-400'>All</a></li>
-        <li className=''><a href="temp" className='hover:text-yellow-400'>Web design</a> </li>
-        <li className=''><a href="temp" className='hover:text-yellow-400'>Database design</a> </li>
-        <li className=''><a href="temp" className='hover:text-yellow-400'>AI and machine learning</a></li>
+        <li className=''><p className='hover:text-yellow-400 hover:cursor-pointer text-yellow-400'>All</p></li>
+        <li className=''><p className='hover:text-yellow-400 hover:cursor-pointer'>Web design</p> </li>
+        <li className=''><p className='hover:text-yellow-400 hover:cursor-pointer'>Database design</p> </li>
+        <li className=''><p className='hover:text-yellow-400 hover:cursor-pointer'>AI and machine learning</p></li>
       </ul>
 
         <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="text-white outline outline-1 outline-yellow-400 hover:bg-yellow-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex md:hidden items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">All <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">

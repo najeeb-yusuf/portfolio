@@ -5,16 +5,16 @@ import { MotionWrap } from '../wrapper';
 const Sidebar = () => {
     return (
         <>
-                <a className="rounded-full bg-gray-600 w-auto p-1 transition ease-in-out hover:scale-110 duration-300" href='https://www.instagram.com/najeebyl/' target='_blank'>
+                <a className="rounded-full bg-gray-600 w-auto p-1 transition ease-in-out hover:scale-110 duration-300" href='https://www.instagram.com/najeebyl/' target='_blank' rel='noreferrer'>
                     <Instagram size="20" color="white" />
                 </a>
-                <a className="rounded-full bg-gray-600 w-auto p-1 transition ease-in-out hover:scale-110 duration-300" href='https://github.com/najeeb-yusuf'  target='_blank'>
+                <a className="rounded-full bg-gray-600 w-auto p-1 transition ease-in-out hover:scale-110 duration-300" href='https://github.com/najeeb-yusuf'  target='_blank' rel='noreferrer'>
                     <GitHub size="20" color="white" />
                 </a>
-                <a className="rounded-full bg-gray-600  w-auto p-1 transition ease-in-out hover:scale-110 duration-300" href='https://www.linkedin.com/in/najeeb-yusuf/'  target='_blank'>
+                <a className="rounded-full bg-gray-600  w-auto p-1 transition ease-in-out hover:scale-110 duration-300" href='https://www.linkedin.com/in/najeeb-yusuf/'  target='_blank' rel='noreferrer'>
                     <Linkedin size="20" color="white" />
                 </a>
-                <a className="rounded-full w-auto bg-gray-600 p-1 transition ease-in-out hover:scale-110 duration-300" href='https://www.twitter.com/notnajeeb'  target='_blank'>
+                <a className="rounded-full w-auto bg-gray-600 p-1 transition ease-in-out hover:scale-110 duration-300" href='https://www.twitter.com/notnajeeb'  target='_blank' rel='noreferrer'>
                     <Twitter size="20" color="white" />
                 </a>
                 <div className="border-l-2 border-yellow-400 h-40 ml-3"></div>
