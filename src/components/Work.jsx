@@ -1,4 +1,5 @@
 import React from 'react';
+import { MotionWrap } from './wrapper';
 
 import {Plus} from 'react-feather';
 
@@ -78,4 +79,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default MotionWrap(Work, "")

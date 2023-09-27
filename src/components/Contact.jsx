@@ -1,4 +1,6 @@
 import React from 'react'
+import { MotionWrap } from './wrapper';
+
 
 const Contact = () => {
   return (
@@ -34,4 +36,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default MotionWrap(Contact, "")
