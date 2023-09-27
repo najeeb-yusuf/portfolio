@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className='fixed top-0 right-0 w-full'>
+        <nav className='sm:fixed sticky top-0 right-0 w-full'>
 
             <div className="flex justify-between font-main">
                 <div className='pl-5 text-3xl pt-4'>

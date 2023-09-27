@@ -3,11 +3,11 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='h-screen bg-stone-900 flex flex-col justify-center place-items-center'>
-        <div className="relative w-48 sm:mb-24 mb-12">
+        <div className="relative w-48 sm:mb-24 mb-4">
             <h3 className='text-white text-2xl uppercase w-max after:block after:absolute after:w-20 after:h-4 after:border-t-2 after:border-white after:right-0 after:top-1/2'>Contact </h3>
         </div>
-        <div className="flex flex-col sm:flex-row place-items-center justify-center sm:gap-32 ">
-            <div className="w-72 h-80 flex flex-col gap-6">
+        <div className="flex flex-col sm:flex-row place-items-center justify-center sm:gap-32 ml-8">
+            <div className="w-72 flex flex-col gap-6 ">
                 <h1 className='font-secondary text-yellow-400 text-3xl'>Let's talk</h1>
                 <p className='text-white font-main'>I'm always open to contribute to fun, impactful and meaningful projects! <br /> If you want to reach me, kindly use this form 
                 to send me an email with your details and the proposition. <br /> You can also use the form to send any kind of message or feedback!</p>
