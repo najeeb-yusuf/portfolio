@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 # portfolio
-This is my personal portfolio website build with tailwind and react.
+
+A portfolio built with tailwind and react
 =======
 # Getting Started with Create React App
 
