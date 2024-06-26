@@ -15,8 +15,7 @@ const About = () => {
                         <section className='text-white flex flex-col max-w-2xl gap-2 px-4'>
                             <h3 className='text-2xl'>About</h3>
                             <h2 className='text-yellow-400 font-secondary text-4xl '>Najeeb Yusuf </h2>
-                            <p className=''>I am a full stack<span className="text-yellow-400 relative cursor-pointer" >* 
-                                </span> web developer with a passion for building websites and applications. 
+                            <p className=''>I am a Software Engineer with a passion for building websites and applications. 
                                 I love learning new technologies and creating innovative solutions. 
                                 </p>
                         </section>

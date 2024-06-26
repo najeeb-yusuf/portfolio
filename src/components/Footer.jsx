@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='h-48 bg-yellow-400 w-screen place-items-center justify-center text-center font-main'>
+    <footer className='h-48 bg-yellow-400 place-items-center justify-center text-center font-main'>
         <ul className='justify-center flex sm:gap-16 gap-4 pt-8 font-thin uppercase text-sm'>
             <li>Home</li>
             <li>About</li>

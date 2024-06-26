@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "QR Attendance",
+      "category": "Web Development",
+      "description": "A web app I supported Yaqcodes with. It is built in flask using a SQLite database.",
+      "imageUrl": "qr-attendance",
+      "link": "https://github.com/Yaqcodes/QR-Attendance-2.0"
+    },
+    {
+      "id": 2,
+      "title": "Blog",
+      "category": "Web Development",
+      "description": "A sample blog for a friend made with React.",
+      "imageUrl": "blog",
+      "link": "https://github.com/najeeb-yusuf/react-blog"
+    },
+    {
+      "id": 3,
+      "title": "Dima Quiz",
+      "category": "Web Development",
+      "description": "A questionnaire built in English and Portuguese using Bootstrap and Django for a client.",
+      "imageUrl": "dima",
+      "link": "none"
+    },
+    {
+      "id": 4,
+      "title": "ERP API",
+      "category": "Web Development",
+      "description": "This was a collab with Udo, Seun, and Mustapha. Made with Django, PostgreSQL, and PostgREST.",
+      "imageUrl": "api",
+      "link": "none"
+    },
+    {
+      "id": 5,
+      "title": "Minesweeper",
+      "category": "Data Science",
+      "description": "As part of an edX project, I made an AI model which plays the Minesweeper game.",
+      "imageUrl": "minesweeper",
+      "link": "none"
+    },
+    {
+      "id": 6,
+      "title": "PowerStack",
+      "category": "Web Development",
+      "description": "I designed a responsive electricity management website for a client.",
+      "imageUrl": "bg-minesweeper",
+      "link": "none"
+    }
+  ]
+  

@@ -14,7 +14,7 @@ const Contact = () => {
                 <p className='text-white font-main'>I'm always open to contribute to fun, impactful and meaningful projects! <br /> If you want to reach me, kindly use this form 
                 to send me an email with your details and the proposition. <br /> You can also use the form to send any kind of message or feedback!</p>
             </div>
-            <div className="form w-72 h-80 flex flex-col gap-4">
+            <form action='mailto:yusufnajlawal@gmail.com' className="form w-72 h-80 flex flex-col gap-4" method='post' encType='text/plain'>
                 <div>
                     <p className='text-white font-main pb-2'>Text</p>
                     <input type="text" className='bg-stone-700 w-72 h-12 rounded-lg border-none text-white ' placeholder='Write your name here' />
@@ -29,9 +29,9 @@ const Contact = () => {
                     <p className='text-white font-main pb-2 '>Message</p>
                     <textarea className='bg-stone-700 w-72 h-24 rounded-lg border-none text-white' placeholder='Send a message!' />
                 </div>
-                <button type='submit' className='text-black bg-yellow-400 w-max ml-auto p-2 px-4 font-light text-sm rounded-xl'>Send message</button>
-            </div>
-        </div>
+                <button type='submit' value='Send' className='text-black bg-yellow-400 w-max ml-auto p-2 px-4 font-light text-sm rounded-xl'>Send message</button>
+            </form>
+        </div> 
     </div>
   )
 }
