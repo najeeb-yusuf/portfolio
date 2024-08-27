@@ -4,7 +4,7 @@ import { MotionWrap } from '../wrapper';
 const Info = () => {
     return (
         <>
-            <img src={require('../icons/najeeb.jpeg')} alt="" className="center-image w-64 rounded-full" />
+            <img src={require('../../assets/icons/najeeb.jpeg')} alt="" className="center-image w-64 rounded-full" />
             <div className="pt-3 mt-3 ">
                 <p className="text-yellow-400 font-secondary text-center text-5xl my-3">Najeeb Yusuf</p>
                 <div className="flex h-16 font-tertiary pl-10 justify-between items-center text-xl">

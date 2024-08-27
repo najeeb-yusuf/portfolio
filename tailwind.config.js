@@ -2,16 +2,25 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js}",
+    "./src/components/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
+  ],
+  safelist: [
+    {
+      pattern:  /bg-+/,
+    }
   ],
   theme: {
     extend: {
       backgroundImage:{
-        'qr-attendance': "url('./assets/stock/qr-code.jpg')", 
+        'qr-attendance': "url('./assets/stock/qr-code.jpg')",
         'blog': "url('./assets/stock/blog.jpg')", 
-        'dima': "url('./assets/stock/quiz.jpg')", 
-        'api': "url('./assets/stock/api.jpg')", 
-        'minesweeper': "url('./assets/stock/minesweeper.png')", 
+        'dima': "url('./assets/stock/quiz.jpg')",
+        'api': "url('./assets/stock/api.jpg')",
+        'minesweeper': "url('./assets/stock/minesweeper.png')",
+        'powerstack': "url('./assets/stock/powerstack.svg')",
+        'media': "url('./assets/stock/media.jpg')",
+        'crypto': "url('./assets/stock/crypto.jpg')",
       },
       keyframes:{
         typing: {
