@@ -21,7 +21,11 @@ const ProjectDisplay = () => {
         : projects.filter(project => project.category === selectedCategory);
 
     return (
-        <div className="h-screen bg-slate-900 flex flex-col justify-center place-items-center gap-4 pl-10 pt-16 pb-2  font-main">
+        <div
+            className="h-screen bg-slate-900 flex flex-col justify-center place-items-center gap-4 pl-10 pt-16 pb-2  font-main">
+            <div className='relative  w-40'>
+                <h3 className='text-white text-2xl uppercase after:block after:absolute after:w-20 after:h-4 after:border-t-2 after:border-yellow-400 after:right-0 after:top-1/2'>Work </h3>
+            </div>
             <ul className=" hidden md:flex list-none uppercase gap-4 sm:gap-10 no-underline pl-6 mb-8">
                 {categories.map(category => (
                     <li
@@ -39,7 +43,8 @@ const ProjectDisplay = () => {
                     </li>
                 ))}
             </ul>
-            <div className="images grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 w-4/5 overflow-hidden">
+            <div
+                className="images grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 w-4/5 overflow-hidden">
                 {filteredProjects.map(project => (
                     <div key={project.id}
                          className={`card | w-full h-48 relative rounded-2xl overflow-hidden bg-cover bg-${project.bg} grid items-end after:block after:bg-black after:absolute after:w-full after:h-full after:top-0 after:left-0 after:opacity-50 after:z-10`}>
@@ -49,7 +54,8 @@ const ProjectDisplay = () => {
                             </h5>
                             <p className='text | text-xs text-white h-11'>
                                 {project.description}
-                                {project.link !== "none" && <a href={project.link} className='text-[10px] text-yellow-400'> more</a>}
+                                {project.link !== "none" &&
+                                    <a href={project.link} className='text-[10px] text-yellow-400'> more</a>}
                             </p>
                         </div>
                     </div>
