@@ -22,7 +22,6 @@ const ProjectDisplay = () => {
 
     return (
         <div className="h-screen bg-slate-900 flex flex-col justify-center place-items-center gap-4 pl-10 pt-16 pb-2  font-main">
-            <div className='bg-quiz'></div>
             <ul className=" hidden md:flex list-none uppercase gap-4 sm:gap-10 no-underline pl-6 mb-8">
                 {categories.map(category => (
                     <li
