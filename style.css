@@ -10,7 +10,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 /*
   Typographic tweaks!
@@ -91,7 +90,7 @@ s-end{
 
 body{
   position: relative;
-  height: 100vh
+  height: 100vh;
   color: white;
   font-family: 'Couture';
 
