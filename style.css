@@ -109,7 +109,6 @@ main{
 justify-content: center;
 align-items: center;
 gap: 3rem;
-padding: 1rem 0 1rem 0
 }
 
 footer{
@@ -120,8 +119,16 @@ footer{
   transition: .2s ease-in-out;
   transform: scale(1.05);
 }
+
 h1{
-  font: 700 4rem 'Couture';
+  font: 700 4.5em 'Couture';
+}
+
+/* make the h1 font 2 rem when screen size is below 768px */
+@media screen and (max-width: 768px) {
+  h1{
+    font: 500 1em 'Couture';
+  }
 }
 /* specific classes */
 nav div{
@@ -153,7 +160,7 @@ nav div .button{
 }
 
 main div{
-  padding: 0 0 0 3rem;
+  padding: 0 2rem 0 0;
   gap:4rem;
   max-width: 70%;
 }
