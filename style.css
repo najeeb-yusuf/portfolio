@@ -93,8 +93,9 @@ body{
   height: 100dvh;
   color: white;
   font-family: 'Couture';
-
   flex-direction: column;
+  padding: 0 2rem; /* Add horizontal padding */
+
 }
 
 
@@ -109,10 +110,12 @@ main{
 justify-content: center;
 align-items: center;
 gap: 3rem;
+text-align: center;
 }
 
-footer{
-  padding: 2rem;
+footer {
+  padding: 2rem 0; /* Remove horizontal padding since body has it */
+  width: 100%;
 }
 
 .button:hover{
@@ -121,9 +124,23 @@ footer{
 }
 
 h1{
-  font: 700 4.5em 'Couture';
+  font: 700 clamp(2rem, 5vw, 4.5rem) 'Couture';
+}
+/* Add styles for the title container */
+.break-word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem; /* Reduces space between Under and Construction */
 }
 
+/* Style container for both heading and subtitle */
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* Space between Construction and Web Developer text */
+}
 /* make the h1 font 2 rem when screen size is below 768px */
 @media screen and (max-width: 768px) {
   h1{
@@ -159,12 +176,30 @@ nav div .button{
   width: 11.25rem;
 }
 
-main div{
+main div {
   padding: 0 2rem 0 0;
-  gap:4rem;
+  gap: 4rem;
   max-width: 70%;
+  align-items: center; /* Center items vertically */
 }
 
-main div img{
-  width: 20rem;
+main div img {
+  width: clamp(10rem, 20vw, 20rem); /* Make image responsive */
+  height: auto;
+}
+
+h1 {
+  font: 700 clamp(2rem, 5vw, 4.5rem) 'Couture'; /* Responsive font size */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+@media screen and (max-width: 768px) {
+  main div {
+    gap: 2rem; /* Reduce gap on smaller screens */
+    max-width: 90%; /* Allow more width on smaller screens */
+  }
+
+  .font-vonique {
+    font-size: clamp(0.75rem, 2vw, 1rem); /* Make subtitle responsive too */
+  }
 }
